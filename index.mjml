@@ -1,0 +1,186 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      .padding-for-block {
+        padding-left: 29px;
+      }
+
+      @media only screen and (max-width:576px) {
+        .padding-for-block {
+          padding-left: 0 !important;
+
+        }
+
+        .text-center-mob div, .text-center-mob {
+          text-align: center !important;
+        }
+
+        .main-btn table {
+          width: 100% !important;
+        }
+
+        .inline-block-mob table {
+          display: inline-block!important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="1000px">
+
+    <mj-section background-color="#1a2e52" padding="10px 0">
+      <mj-column >
+        <mj-text align="center" font-family="Helvetica Neue, Arial, sans-serif" font-size="20px" line-height="24px" font-weight="500" letter-spacing="0px" color="#FFFFFF">
+          Unmissable and exclusive offers for you. These will go quickly!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="20px 15px" background-color="white">
+      <mj-column width="93%">
+        <mj-image width="200px" align="left" src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719298072/lzgv1hmjxkaqjqgz2hq8.png" alt="logo" padding="0"  css-class="text-center-mob inline-block-mob"></mj-image>
+        <mj-text padding="0" css-class="text-center-mob">
+          <h1 style="font-family:Helvetica Neue, Arial, sans-serif; line-height: 40px; font-weight: bold; color: #050A19; margin-bottom: 25px;">
+            Hi [Name]
+          </h1>
+          <p style="font-family:Helvetica Neue, Arial, sans-serif; font-size: 22px; line-height: 30px; font-weight: 500; color: #050A19; margin-bottom: 35px;">
+            You recently enquired about a new car on Facebook and we’ve just secured some unmissable and exclusive deals with our partner, heycar.
+          </p>
+          <p style="font-family:Helvetica Neue, Arial, sans-serif; font-size: 22px; line-height: 30px; font-weight: 500; color: #050A19; margin-bottom: 35px;">
+            These discounted offers are expected to go quickly, so if you’re still looking for a car check them out as soon as you can!
+          </p>
+        </mj-text>
+        <mj-button css-class="main-btn" background-color="#044BBC" border-radius="0" color="#FFFFFF" href="your-link-url" font-family="Helvetica Neue, Arial, sans-serif" font-size="19px" line-height="40px" font-weight="500" align="left" padding="0" height="62px">
+          View exclusive offers
+        </mj-button>
+      </mj-column>
+
+    </mj-section>
+
+
+    <mj-section padding="20px 15px" background-color="white">
+      <mj-column padding="20px">
+        <mj-image src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719297916/jvkdynuq2465frnoeuxg.png" alt="Volkswagen Golf" padding="0"></mj-image>
+      </mj-column>
+
+
+      <mj-column width="47%" css-class="text-center-mob">
+        <mj-text align="left" padding="0" font-family="Helvetica Neue, Arial, sans-serif" font-size="30px" line-height="65px" font-weight="bold" color="#050A19">
+          Volkswagen Golf
+        </mj-text>
+        <mj-text align="left" padding="0 0 15px" font-family="Helvetica Neue, Arial, sans-serif" font-size="24px" line-height="53px" font-weight="normal" color="#050A19">
+          1.5 eTSI 150 R-Line 5dr DSG
+        </mj-text>
+        <mj-text align="left" padding="0">
+          <span style="background: #F3F3F3; border-radius: 5px; text-align: center; font-family:Helvetica Neue, Arial, sans-serif; font-size: 22px; line-height: 53px; font-weight: 500; padding: 5px 9px; color: #050A19;">
+            £27,210
+          </span>
+
+          <span style="font-size:19px; padding:0 20px; font-family:Helvetica Neue, Arial, sans-serif">Or</span>
+
+          <span style="background: #F3F3F3; border-radius: 5px; text-align: center; font-family:Helvetica Neue, Arial, sans-serif; font-size: 22px; line-height: 53px; font-weight: 500; padding: 5px 9px; color: #050A19;">
+            Just £415pm
+          </span>
+        </mj-text>
+        <mj-button css-class="main-btn" padding="35px 0 0" border-radius="0" background-color="#044BBC" color="#FFFFFF" href="your-link-url" width="300px" font-family="Helvetica Neue, Arial, sans-serif" font-size="19px" line-height="40px" font-weight="500" align="left" padding="0" height="62px">
+          Get this deal
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding="0 15px"  background-color="white">
+      <mj-column width="47%" css-class="text-center-mob">
+        <mj-text align="left" padding="0" font-family="Helvetica Neue, Arial, sans-serif" font-size="30px" line-height="65px" font-weight="bold" color="#050A19">
+          Audi A3 Saloon
+        </mj-text>
+        <mj-text align="left" padding="0 0 15px" font-family="Helvetica Neue, Arial, sans-serif" font-size="24px" line-height="53px" font-weight="normal" color="#050A19">
+          35 TFSI S Line 4dr S Tronic
+        </mj-text>
+        <mj-text align="left" padding="0">
+          <span style="background: #F3F3F3; border-radius: 5px; text-align: center; font-family:Helvetica Neue, Arial, sans-serif; font-size: 22px; line-height: 53px; font-weight: 500; padding: 5px 9px; color: #050A19;">
+           £27,210
+          </span>
+
+          <span style="font-size:19px; padding:0 20px; font-family:Helvetica Neue, Arial, sans-serif">Or</span>
+
+          <span style="background: #F3F3F3; border-radius: 5px; text-align: center; font-family:Helvetica Neue, Arial, sans-serif; font-size: 22px; line-height: 53px; font-weight: 500; padding: 5px 9px; color: #050A19;">
+            Just £415pm
+          </span>
+        </mj-text>
+        <mj-button css-class="main-btn" padding="35px 0 0" border-radius="0" background-color="#044BBC" color="#FFFFFF" href="your-link-url" width="300px" font-family="Helvetica Neue, Arial, sans-serif" font-size="19px" line-height="40px" font-weight="500" align="left" padding="0" height="62px">
+          Get this deal
+        </mj-button>
+      </mj-column>
+      <mj-column padding="20px">
+        <mj-image src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719260908/jdo7fub1mmla1wkcr36r.png" alt="Audi A3 Saloon" padding="0"></mj-image>
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section padding="20px 15px 0">
+      <mj-column width="100%">
+        <mj-image src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719260909/kah9lnqpo1nwupqgx9d5.jpg" alt="New Offer Image" padding="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 15px">
+      <mj-column width="100%" padding="27px 30px 25px" background-color="#1a2e52">
+        <mj-text padding="0" align="left" font-family="Objektiv Mk1, Arial, sans-serif" font-size="35px" font-weight="bold" color="#FFFFFF" line-height="39px">
+          Unmissable offers that won’t <span style="color: #0D2A5F; background: #00d084; letter-spacing: -4px;padding:2px 12px">last long</span>
+        </mj-text>
+        <mj-text align="left" padding="20px 0 0">
+          <ul style="margin:0; padding: 0; list-style-type: none; font-family: Objektiv Mk1, Arial, sans-serif; font-size: 25px; line-height: 50px; font-weight: 500; color: #FFFFFF;">
+            <li>&#10004; Exclusive offers you won’t find anywhere else online</li>
+            <li>&#10004; Free home delivery</li>
+            <li>&#10004; heycar’s “Excellent” Trustpilot score</li>
+            <li>&#10004; Easy financing options</li>
+            <li>&#10004; 10-day money-back guarantee</li>
+            <li>&#10004; Free 1 year warranty</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    
+    <mj-section padding="20px 15px 0">
+      <mj-column width="100%">
+        <mj-image src="https://res.cloudinary.com/dyb0fh6qa/image/upload/f_auto,q_auto/sgxtxwvtuj5fcz3yxxru" alt="New Offer Image" padding="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 15px">
+      <mj-column width="716px" padding="0">
+        <mj-image src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719260909/fdthfezgkuz4ajlztlhz.png" alt="Footer Logo" width="141px" align="center" padding="0"></mj-image>
+        <mj-text padding="18px 0 0" align="center" font-family="Mulish, Arial, sans-serif" font-size="14px" line-height="28px" font-weight="300" color="#050A19">
+          <a href="https://motoring.co.uk" style="color: #1E49FF; text-decoration: none;">Motoring.co.uk </a>  Ltdt/a Regit, Level 3, Suite 1, Glasshouse, Block 15, Alderley Park, Macclesfield, SK10 4TG.<br>
+          <a href="https://motoring.co.uk" style="color: #1E49FF; text-decoration: none;">Motoring.co.uk </a> Ltd is authorised and regulated by the Financial Conduct Authority (Firm Ref:711752) and is a credit broker not a lender.<a href="https://motoring.co.uk" style="color: #1E49FF; text-decoration: none;">Motoring.co.uk </a> is registered as a limited company in England and Wales, Company Number: 6073777.
+        </mj-text>
+
+      </mj-column>
+
+    </mj-section>
+
+
+
+
+    <mj-section>
+      <mj-column>
+        <mj-divider border-color="#cccccc" border-width="1px"></mj-divider>
+        <mj-text align="center" font-family="Mulish, Arial, sans-serif" font-size="14px" line-height="22px" font-weight="600" color="#050A19">
+          <a href="update-preferences-link" style="color: #050A19; text-decoration: none; margin: 0 10px;">Update Your Preferences</a>
+          <span style="color: #1E49FF;"> | </span>
+          <a href="unsubscribe-link" style="color: #050A19; text-decoration: none; margin: 0 10px;">Unsubscribe</a>
+          <span style="color: #1E49FF;"> | </span>
+          <a href="privacy-policy-link" style="color: #050A19; text-decoration: none; margin: 0 10px;">View Privacy Policy</a>
+          <span style="color: #1E49FF;"> | </span>
+          <a href="online-version-link" style="color: #050A19; text-decoration: none; margin: 0 10px;">Online version</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+
+
+  </mj-body>
+</mjml>
