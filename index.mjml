@@ -11,7 +11,8 @@
 
         }
 
-        .text-center-mob div, .text-center-mob {
+        .text-center-mob div,
+        .text-center-mob {
           text-align: center !important;
         }
 
@@ -20,7 +21,7 @@
         }
 
         .inline-block-mob table {
-          display: inline-block!important;
+          display: inline-block !important;
         }
       }
     </mj-style>
@@ -28,7 +29,7 @@
   <mj-body width="1000px">
 
     <mj-section background-color="#1a2e52" padding="10px 0">
-      <mj-column >
+      <mj-column>
         <mj-text align="center" font-family="Helvetica Neue, Arial, sans-serif" font-size="20px" line-height="24px" font-weight="500" letter-spacing="0px" color="#FFFFFF">
           Unmissable and exclusive offers for you. These will go quickly!
         </mj-text>
@@ -36,7 +37,7 @@
     </mj-section>
 
     <mj-section padding="20px 15px" background-color="white">
-     <mj-column width="97%">
+      <mj-column width="97%">
         <mj-image width="200px" align="left" src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719346113/lawg9doz4ysigdydcdbk.png" alt="logo" padding="0" css-class="text-center-mob inline-block-mob"></mj-image>
       </mj-column>
       <mj-column width="93%">
@@ -74,8 +75,7 @@
         </mj-text>
         <mj-text align="left" padding="0">
           <span style="background: #F3F3F3; border-radius: 5px; text-align: center; font-family:Helvetica Neue, Arial, sans-serif; font-size: 22px; line-height: 53px; font-weight: 500; padding: 5px 9px; color: #050A19;">
-            £27,210
-          </span>
+            £27,210</span>
 
           <span style="font-size:19px; padding:0 20px; font-family:Helvetica Neue, Arial, sans-serif">Or</span>
 
@@ -90,7 +90,7 @@
     </mj-section>
 
 
-    <mj-section padding="0 15px"  background-color="white">
+    <mj-section padding="0 15px" background-color="white">
       <mj-column width="47%" css-class="text-center-mob">
         <mj-text align="left" padding="0" font-family="Helvetica Neue, Arial, sans-serif" font-size="30px" line-height="65px" font-weight="bold" color="#050A19">
           Audi A3 Saloon
@@ -100,7 +100,7 @@
         </mj-text>
         <mj-text align="left" padding="0">
           <span style="background: #F3F3F3; border-radius: 5px; text-align: center; font-family:Helvetica Neue, Arial, sans-serif; font-size: 22px; line-height: 53px; font-weight: 500; padding: 5px 9px; color: #050A19;">
-           £27,210
+            £27,210
           </span>
 
           <span style="font-size:19px; padding:0 20px; font-family:Helvetica Neue, Arial, sans-serif">Or</span>
@@ -127,33 +127,55 @@
     <mj-section padding="0 15px">
       <mj-column width="100%" padding="27px 30px 25px" background-color="#1a2e52">
         <mj-text padding="0" align="left" font-family="Objektiv Mk1, Arial, sans-serif" font-size="35px" font-weight="bold" color="#FFFFFF" line-height="39px">
-          Unmissable offers that won’t <span style="color: #0D2A5F; background: #00d084; letter-spacing: -4px;padding:2px 12px">last long</span>
+          Unmissable offers that won’t <span style="color: #0D2A5F; background: #00d084; letter-spacing: -2px;padding:2px 12px">last long</span>
         </mj-text>
-        <mj-text align="left" padding="20px 0 0">
-          <ul style="margin:0; padding: 0; list-style-type: none; font-family: Objektiv Mk1, Arial, sans-serif; font-size: 25px; line-height: 50px; font-weight: 500; color: #FFFFFF;">
-            <li>&#10004; Exclusive offers you won’t find anywhere else online</li>
-            <li>&#10004; Free home delivery</li>
-            <li>&#10004; heycar’s “Excellent” Trustpilot score</li>
-            <li>&#10004; Easy financing options</li>
-            <li>&#10004; 10-day money-back guarantee</li>
-            <li>&#10004; Free 1 year warranty</li>
-          </ul>
-        </mj-text>
+
+        <mj-table padding="20px 0 0">
+          <tr>
+            <td style="padding: 0 15px 20px 0;"><img src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719841621/oatuufrzeqkljpnbe7tc.png" alt="Icon check" width="20px"></td>
+            <td style="padding: 0 15px 20px 0; list-style-type: none; font-family: Objektiv Mk1, Arial, sans-serif; font-size: 25px; font-weight: 500; color: #FFFFFF;">Exclusive offers you won’t find anywhere else online</td>
+          </tr>
+
+          <tr>
+            <td style="padding: 0 15px 20px 0;"><img src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719841621/oatuufrzeqkljpnbe7tc.png" alt="Icon check" width="20px"></td>
+            <td style="padding: 0 15px 20px 0; list-style-type: none; font-family: Objektiv Mk1, Arial, sans-serif; font-size: 25px; font-weight: 500; color: #FFFFFF;">Free home delivery</td>
+          </tr>
+
+          <tr>
+            <td style="padding: 0 15px 20px 0;"><img src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719841621/oatuufrzeqkljpnbe7tc.png" alt="Icon check" width="20px"></td>
+            <td style="padding: 0 15px 20px 0; list-style-type: none; font-family: Objektiv Mk1, Arial, sans-serif; font-size: 25px; font-weight: 500; color: #FFFFFF;">heycar’s “Excellent” Trustpilot score</td>
+          </tr>
+
+          <tr>
+            <td style="padding: 0 15px 20px 0;"><img src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719841621/oatuufrzeqkljpnbe7tc.png" alt="Icon check" width="20px"></td>
+            <td style="padding: 0 15px 20px 0; list-style-type: none; font-family: Objektiv Mk1, Arial, sans-serif; font-size: 25px; font-weight: 500; color: #FFFFFF;">Easy financing options</td>
+          </tr>
+
+          <tr>
+            <td style="padding: 0 15px 20px 0;"><img src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719841621/oatuufrzeqkljpnbe7tc.png" alt="Icon check" width="20px"></td>
+            <td style="padding: 0 15px 20px 0; list-style-type: none; font-family: Objektiv Mk1, Arial, sans-serif; font-size: 25px; font-weight: 500; color: #FFFFFF;">10-day money-back guarantee</td>
+          </tr>
+
+          <tr>
+            <td style="padding: 0 15px 20px 0;"><img src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719841621/oatuufrzeqkljpnbe7tc.png" alt="Icon check" width="20px"></td>
+            <td style="padding: 0 15px 20px 0; list-style-type: none; font-family: Objektiv Mk1, Arial, sans-serif; font-size: 25px; font-weight: 500; color: #FFFFFF;">Free 1 year warranty</td>
+          </tr>
+        </mj-table>
       </mj-column>
     </mj-section>
 
 
-    
+
     <mj-section padding="20px 15px 0">
       <mj-column width="100%">
-        <mj-image src="https://res.cloudinary.com/dyb0fh6qa/image/upload/f_auto,q_auto/sgxtxwvtuj5fcz3yxxru" alt="New Offer Image" padding="0"></mj-image>
+        <mj-image width="600px" src="https://res.cloudinary.com/dyb0fh6qa/image/upload/f_auto,q_auto/sgxtxwvtuj5fcz3yxxru" alt="New Offer Image" padding="0"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="20px 15px">
-      <mj-column width="716px" padding="0">
+      <mj-column padding="0">
         <mj-image src="https://res.cloudinary.com/dyb0fh6qa/image/upload/v1719260909/fdthfezgkuz4ajlztlhz.png" alt="Footer Logo" width="141px" align="center" padding="0"></mj-image>
         <mj-text padding="18px 0 0" align="center" font-family="Mulish, Arial, sans-serif" font-size="14px" line-height="28px" font-weight="300" color="#050A19">
-          <a href="https://motoring.co.uk" style="color: #1E49FF; text-decoration: none;">Motoring.co.uk </a>  Ltdt/a Regit, Level 3, Suite 1, Glasshouse, Block 15, Alderley Park, Macclesfield, SK10 4TG.<br>
+          <a href="https://motoring.co.uk" style="color: #1E49FF; text-decoration: none;">Motoring.co.uk </a> Ltdt/a Regit, Level 3, Suite 1, Glasshouse, Block 15, Alderley Park, Macclesfield, SK10 4TG.<br>
           <a href="https://motoring.co.uk" style="color: #1E49FF; text-decoration: none;">Motoring.co.uk </a> Ltd is authorised and regulated by the Financial Conduct Authority (Firm Ref:711752) and is a credit broker not a lender.<a href="https://motoring.co.uk" style="color: #1E49FF; text-decoration: none;">Motoring.co.uk </a> is registered as a limited company in England and Wales, Company Number: 6073777.
         </mj-text>
 
